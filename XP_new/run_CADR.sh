@@ -1,0 +1,11 @@
+module load conda/5.0.1-python3.6
+source activate virt_pytorch_conda
+
+
+python3 script_main.py  --valid_num 400 --general_method 'CADR' --seed 1 --lmbd 1 --cutoff_meth "CADR" --unlab_num 1635 1635 1635 1635 1635 1635 1635 1635 1635 1635  --lab_num 164 164 164 164 164 164 164 164 164 164 
+
+python3 script_main.py --valid_num 400 --general_method 'CADR' --seed 2 --lmbd 1 --cutoff_meth "CADR" --unlab_num 1635 1635 1635 1635 1635 1635 1635 1635 1635 1635  --lab_num 164 164 164 164 164 164 164 164 164 164 
+
+python3 script_main.py --valid_num 400 --general_method 'CADR' --seed 3 --lmbd 1 --cutoff_meth "CADR" --unlab_num 1635 1635 1635 1635 1635 1635 1635 1635 1635 1635  --lab_num 164 164 164 164 164 164 164 164 164 164 
+
+python3 script_main.py --valid_num 400 --general_method 'CADR' --seed 4 --lmbd 1 --cutoff_meth "CADR" --unlab_num 1635 1635 1635 1635 1635 1635 1635 1635 1635 1635  --lab_num 164 164 164 164 164 164 164 164 164 164 
